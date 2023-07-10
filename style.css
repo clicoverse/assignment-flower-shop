@@ -63,4 +63,99 @@
 }
 .home-para{
   margin: 20px 0px;
+  font-size: 15px;
+}
+
+/* Flower Featured related Style */
+
+.featured-title{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+ }
+
+ .title-head{
+  font-size: 2.4rem;
+  text-align: center;
+}
+.title-para{
+  text-align: center;
+  margin: 15px;
+  font-size: 15px;
+}
+.featured-display{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  gap: 20px;
+}
+.flowers1 {
+  background-color: rgb(249, 237, 250);
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  height: 430px;
+  width: 360px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.flowers2 {
+  background-color: rgb(227, 241, 241);
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  height: 430px;
+  width: 360px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.flowers3 {
+  background-color: rgb(245, 247, 232);
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  height: 430px;
+  width: 360px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.img  {
+  width: 80%;
+  /* padding: 30px; */
+}
+
+/* Special info Related style */
+
+.special-info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(237, 236, 236);
+  width: 75%;
+  margin: 60px auto;
+  height: 220px;
+  padding: 25px;
+}
+.info1{
+  display: inline-block;
+  /* justify-content: center; */
+  align-items: center;
+}
+.info2{
+  display: block;
+  justify-content: center;
+  
+  border: 2px solid red;
+
+}
+.img-info{
+  text-align: center;
+}
+.info-para{
+  text-align: center;
 }
