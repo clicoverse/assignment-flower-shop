@@ -38,5 +38,29 @@
   padding: 15px 25px;
   border: none;
   border-radius: 7px;
-  background-color: rgb(246, 94, 120);
+  background-color: #E55473;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Hero Section related style */
+
+.home{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fbe7eb;
+  height: 420px;
+  width: auto;
+}
+.hero-info{
+  padding: 70px;
+}
+.title{
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.home-para{
+  margin: 20px 0px;
 }
