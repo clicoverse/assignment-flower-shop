@@ -182,7 +182,7 @@
   width: 300px;
 }
 .flower-img1{
-  background-image: url("/assets/Flower01.png");
+  background-image: url('/assets/Flower01.png');
   height: 100%;
   width: 100%;
   background-position: center;
@@ -191,7 +191,7 @@
 }
 
 .flower-img2{
-  background-image: url("/assets/Rectangle4.png");
+  background-image: url('/assets/Rectangle4.png');
   height: 100%;
   width: 100%;
   background-position: center;
@@ -199,7 +199,7 @@
   background-size: cover;
 }
 .flower-img3{
-  background-image: url("/assets/Rectangle5.png");
+  background-image: url("./assets/Rectangle5.png");
   height: 100%;
   width: 100%;
   background-position: center;
@@ -207,7 +207,7 @@
   background-size: cover;
 }
 .flower-img4{
-  background-image: url("/assets/Rectangle6.png");
+  background-image: url("./assets/Rectangle6.png");
   height: 100%;
   width: 100%;
   background-position: center;
@@ -216,7 +216,7 @@
 }
 /* Newsletter realated style */
 .newsletter{
-  background-image: url("/assets/Rectangle9.png");
+  background-image: url("./assets/Rectangle9.png");
   height: 350px;
   width: 75%;
   margin: auto;
@@ -264,4 +264,8 @@
 }
 span{
   color: red;
+}
+.copyright{
+  text-align: center;
+  color: grey;
 }
