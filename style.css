@@ -146,16 +146,3 @@
   /* justify-content: center; */
   align-items: center;
 }
-.info2{
-  display: block;
-  justify-content: center;
-  
-  border: 2px solid red;
-
-}
-.img-info{
-  text-align: center;
-}
-.info-para{
-  text-align: center;
-}
