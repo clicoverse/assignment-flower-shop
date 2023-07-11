@@ -99,9 +99,6 @@
   border-top-right-radius: 150px;
   height: 430px;
   width: 360px;
-  /* display: inline-block;
-  justify-content: center;
-  align-items: center; */
 }
 
 .flowers2 {
@@ -110,9 +107,6 @@
   border-top-right-radius: 150px;
   height: 430px;
   width: 360px;
-  /* display: inline-block;
-  justify-content: center;
-  align-items: center; */
 }
 .flowers3 {
   background-color: rgb(245, 247, 232);
@@ -120,18 +114,43 @@
   border-top-right-radius: 150px;
   height: 430px;
   width: 360px;
-  /* display: inline-block;
-  justify-content: center;
-  align-items: center; */
 }
 
-.flower-img{
-  background-image: url('');
+.flower-img1 {
+  background-image: url('./assets/pngwing10.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.flower-img2 {
+  background-image: url('./assets/pngwing5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.flower-img3 {
+  background-image: url('./assets/pngwing7.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+h4 {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  text-decoration: underline;
+  font-size: bold;
 }
 
 .img  {
   width: 80%;
-  /* padding: 30px; */
 }
 
 /* Special info Related style */
@@ -185,7 +204,7 @@
   height: 300px;
   width: 300px;
 }
-.flower-img1{
+.insta-flower-img1{
   background-image: url("./assets/Flower01.png");
   height: 100%;
   width: 100%;
@@ -194,7 +213,7 @@
   background-size: cover;
 }
 
-.flower-img2{
+.insta-flower-img2{
   background-image: url("./assets/Rectangle4.png");
   height: 100%;
   width: 100%;
@@ -202,7 +221,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.flower-img3{
+.insta-flower-img3{
   background-image: url("./assets/Rectangle5.png");
   height: 100%;
   width: 100%;
@@ -210,7 +229,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.flower-img4{
+.insta-flower-img4{
   background-image: url("./assets/Rectangle6.png");
   height: 100%;
   width: 100%;
