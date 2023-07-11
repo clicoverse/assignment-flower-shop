@@ -99,9 +99,9 @@
   border-top-right-radius: 150px;
   height: 430px;
   width: 360px;
-  display: inline-block;
+  /* display: inline-block;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .flowers2 {
@@ -110,9 +110,9 @@
   border-top-right-radius: 150px;
   height: 430px;
   width: 360px;
-  display: inline-block;
+  /* display: inline-block;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .flowers3 {
   background-color: rgb(245, 247, 232);
@@ -120,9 +120,13 @@
   border-top-right-radius: 150px;
   height: 430px;
   width: 360px;
-  display: inline-block;
+  /* display: inline-block;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+}
+
+.flower-img{
+  background-image: url('');
 }
 
 .img  {
@@ -182,7 +186,7 @@
   width: 300px;
 }
 .flower-img1{
-  background-image: url('/assets/Flower01.png');
+  background-image: url("./assets/Flower01.png");
   height: 100%;
   width: 100%;
   background-position: center;
@@ -191,7 +195,7 @@
 }
 
 .flower-img2{
-  background-image: url('/assets/Rectangle4.png');
+  background-image: url("./assets/Rectangle4.png");
   height: 100%;
   width: 100%;
   background-position: center;
