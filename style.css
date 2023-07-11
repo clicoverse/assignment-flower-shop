@@ -242,3 +242,26 @@
   border-radius: 5px;
   border: none;
 }
+
+/* Footer realated style */
+
+.footer-primary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 420px;
+  width: auto;
+  margin-top: 50px;
+}
+.footer-section-title{
+  color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 25px;
+}
+span{
+  color: red;
+}
