@@ -68,11 +68,12 @@
 
 /* Flower Featured related Style */
 
-.featured-title{
+.section-title{
   display: block;
   justify-content: center;
   align-items: center;
   margin-top: 90px;
+  margin-bottom: 25px;
  }
 
  .title-head{
@@ -84,7 +85,7 @@
   margin: 15px;
   font-size: 15px;
 }
-.featured-display{
+.section-display{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -143,6 +144,74 @@
 }
 .info1{
   display: inline-block;
-  /* justify-content: center; */
+  text-align: center;
+
+}
+.info-para{
+  text-align: center;
+}
+/* Deal Section realted style */
+
+#deal{
+  display: flex;
+  justify-content: space-around;
   align-items: center;
+  background-color: #fbe7eb;
+  height: 420px;
+  width: auto;
+  padding: 40px;
+}
+.deal-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.deal-para{
+  margin: 20px 0px;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Instagram section style */
+
+.insta{
+  margin: 50px;
+  padding: 20px;
+}
+.display{
+  height: 300px;
+  width: 300px;
+}
+.flower-img1{
+  background-image: url("/assets/Flower01.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flower-img2{
+  background-image: url("/assets/Rectangle4.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flower-img3{
+  background-image: url("/assets/Rectangle5.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flower-img4{
+  background-image: url("/assets/Rectangle6.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
